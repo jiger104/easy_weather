@@ -18,7 +18,6 @@ export async function load({ params }) {
     if (!list && !city) {
       throw error(404, "Could not find weather for given zip code");
     } else {
-      // console.log(list, city);
       return { slug: slug,  name: city.name, weather: list };
     }
 
