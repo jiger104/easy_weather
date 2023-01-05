@@ -1,0 +1,1 @@
+To run locally clone repo and create .env.local file with OPEN_WEATHER_API_KEY as env variable.
