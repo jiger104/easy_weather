@@ -1,8 +1,7 @@
 import { error } from "@sveltejs/kit";
-import { fail, redirect } from '@sveltejs/kit';
 import { OPEN_WEATHER_API_KEY } from "$env/static/private";
 
-// Get slug from params and run it through open-weather. Ensure the slug contains 5 digit number only
+// Get zip from url and run it through open-weather. Ensure the slug contains 5 digit number only
 
 /** @type {import("./$types").PageServerLoad} */
 export async function load({ params }) {
