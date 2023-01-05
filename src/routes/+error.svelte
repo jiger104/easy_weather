@@ -7,7 +7,7 @@
   <div class="space-y-8 text-center">
   <h1>{$page.status}</h1>
   <h2>{$page.error.message + "!"}</h2>
-
+    <a class="btn btn-sm btn-ghost-surface" href="/" rel="noreferrer">Try Again</a>
   </div>
 
 </div>
